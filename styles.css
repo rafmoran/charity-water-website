@@ -127,14 +127,37 @@ section {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Responsive Design */
+/* Adjustments */
+h1 {
+  font-size: 1.8rem;
+}
+
 @media (max-width: 699px) {
-  h1 {
-    font-size: 1.8rem;
+  .hero {
+    min-height: 80vh;
+    padding: 20px 10px;
   }
 
   .overlay-text {
     padding: 20px;
+  }
+
+  .donate-button {
+    width: 100%;
+    font-size: 1em;
+    padding: 12px;
+  }
+
+  section {
+    padding: 40px 16px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1rem;
   }
 
   .impact-content {
@@ -148,13 +171,13 @@ section {
 }
 
 @media (min-width: 700px) {
+  h1 {
+    font-size: 3rem;
+  }
+
   .impact-content {
     flex-direction: row;
     text-align: left;
     justify-content: center;
-  }
-
-  .overlay-text h1 {
-    font-size: 3rem;
   }
 }

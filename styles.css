@@ -44,6 +44,11 @@ h2 {
   border-radius: 12px;
   max-width: 650px;
   margin: 0 20px;
+  transition: transform 0.4s ease;
+}
+
+.overlay-text:hover {
+  transform: scale(1.02);
 }
 
 /* CTA Button */
@@ -58,10 +63,13 @@ h2 {
   border-radius: 8px;
   text-decoration: none;
   transition: all 0.3s ease;
+  transform: scale(1);
 }
 
 .donate-button:hover {
   background-color: #FF902A;
+  color: #fff;
+  transform: scale(1.05);
 }
 
 /* Section Styles */
@@ -75,12 +83,23 @@ section {
 .story {
   background-color: #8BD1CB;
   border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.story:hover {
+  background-color: #7BC5BE;
 }
 
 .call-to-action {
   background-color: #FFC907;
   color: #222;
   border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.call-to-action:hover {
+  background-color: #FF902A;
+  color: #fff;
 }
 
 /* Impact Story */
@@ -100,9 +119,34 @@ section {
   max-width: 320px;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.impact-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Responsive Design */
+@media (max-width: 699px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .overlay-text {
+    padding: 20px;
+  }
+
+  .impact-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .impact-image {
+    max-width: 90%;
+  }
+}
+
 @media (min-width: 700px) {
   .impact-content {
     flex-direction: row;

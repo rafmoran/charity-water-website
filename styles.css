@@ -26,7 +26,7 @@ h2 {
 
 /* Hero Section */
 .hero {
-  background: url('https://cdn2.dropmarkusercontent.com/52043/977b834afed47a20ded2dcc6db80dd0990a8cc8300545615456b4e789a8bf268/preview/8857_Ethiopia_2019_CG-.jpg?Expires=1751916668&Signature=ZefYJxh8e46yF8MFTl82krB~1KKKzQmBdpgFjoWdQk6HTrfeg9FfqisGFI7II1BL8iJd0Ytoq-Zk4h03-77zNV0Xq9JlKwqOpa9zFqJ5hr87AGrnybP1NIm1ey~74EPmOafdSioSqUqBdXMwy2MWlBbl7o6-oKqGJYexSPf3R1wdyd39DBBaWT0Ty5a-X2WyuX0Bre1dehzxfNZmDSNNoLYy0G7d3hVkTy7cjUQ9ad~elpR~IoC-klTWu595fDwQzQ999SsLDpBx-S~3NEtO4c9vkPHnivnC~tiuGgnpZcmnp1-lrQBGWO8qoC-u9tqzYywCmwF5ij6l1SZRC4D-Xg__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ') no-repeat center center/cover;
+  background: url('https://i.imgur.com/ijB5l0y.jpeg') no-repeat center center/cover;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -61,8 +61,7 @@ h2 {
 }
 
 .donate-button:hover {
-  background-color: #2E9DF7;
-  color: white;
+  background-color: #FF902A;
 }
 
 /* Section Styles */
